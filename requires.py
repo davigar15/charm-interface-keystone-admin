@@ -40,7 +40,6 @@ class KeystoneRequires(RelationBase):
         keystone provides:
             {u'service_password': u'XXXXXXXX',
              u'service_port': u'5000',
-             u'private-address': u'10.XX.XX.XXX',
              u'service_hostname': u'10.XX.XX.XXX',
              u'service_username': u'admin',
              u'service_tenant_name': u'Admin',
@@ -50,7 +49,6 @@ class KeystoneRequires(RelationBase):
             service_project_domain_name: admin_domain
             service_project_name: admin
             service_protocol: http
-            service_region: RegionOne
             service_user_domain_name: admin_domain}
         """
         convs = self.conversations()
